@@ -1,0 +1,167 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+.container {  
+
+   padding: 2cm; 
+   margin-left:8cm;
+   margin-right:5cm;
+   width:210mm;
+   height:325mm;
+  background-color: #fff5e6;  
+}  
+
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: #f0f5f5;  
+  outline: none;  
+}  
+ div {  
+       
+        
+            padding: 0.1px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #734d26;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form >
+ 
+  <div class="container">
+  
+  <center> 
+  <h1> Leave Form</h1> </center>  
+  <hr>  
+  <label> <b>Firstname:</b> </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label><b> Middlename: </b></label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> <b>Lastname:</b> </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+<div>  
+<label>   
+<b>College name : </b> 
+</label>   
+  
+<select>  
+<option value="College">College</option>  
+<option value="RCPIT">RC patel instiute of technology</option>  
+<option value="RCPP">RC patel pharamcy college</option>  
+<option value="HRPP">HR patel pharamcy college</option>  
+ 
+</select>  
+</div> 
+ <br> 
+<div>  
+<label>   
+<b>Course :  </b>
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div> 
+<br>
+<div>  
+<label>   
+<b>Reason of Leave:  </b>
+</label>   
+  
+<select>  
+<option value="Reason">Reason</option>  
+<option value="Vacation">Vacation</option>  
+<option value="Sick">Sick</option>  
+<option value="Exams">Exams</option>  
+<option value="Family Function ">Family Function</option>  
+<option value="Other">Other</option>  
+
+</select>  
+</div>
+
+<br>
+ <label><b>Start Date :</b></label>
+        <div class="form-group">
+            <input type="date" name="startdate" placeholder="8/23/2019" class="form-control" required>
+            
+        </div>
+ <br>
+  <label><b>End Date :</b></label>
+        <div class="form-group">
+            <input type="date" name="enddate" placeholder="8/23/2019" class="form-control" required>
+            
+        </div>
+ <br>
+<div>  
+<label>   
+<b>Gender : </b> 
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div> 
+<br> 
+<label>   
+ <b>Student Contact Number : </b> 
+</label>  
+   
+<input type="text" name="studentphone" placeholder="phone no." size="10"/ required> 
+
+<label>   
+<b>parent Contact Number : </b>
+</label>  
+   
+<input type="text" name="parentphone" placeholder="phone no." size="10"/ required>  
+<b>Current Address :</b>  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea> 
+
+<label> <b>Class Teacher Name:</b> </label>   
+<input type="text" name="ClassTeacher" placeholder= "ClassTeacher" size="15" required />
+
+<label> <b>Local Guardian Name:</b> </label>   
+<input type="text" name="LocalGuardian" placeholder= "LocalGuardian" size="15" required />
+ 
+ 
+  
+     
+    <button type="submit" class="registerbtn"><a href="#" style="color:white">Apply</button>    
+</form>  
+</body>  
+</html>  

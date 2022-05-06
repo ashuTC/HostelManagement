@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+<style >
+   *,body{margin:0px;padding:0px:;}
+   body{display:flex;justify-content:center; font-family:laila; }
+   div{width:95%; height: 405px; overflow-Y:hidden; margin-top:80px;}
+   table{width:1600px;text-align:left; overflow:scroll; border-collapse:collapse;cursor:pointer ;}
+   thead{color:white; text-align:center;font-size:1.1em; padding:10px; background:#eb4d4b;}
+   thead tr{background:#bf8040;}
+   th{width:200px; height:50px;}
+   tbody tr{background:white; border-bottom:1px solid #ccc;}
+   td{width:200px;height:40px; text-align:center; }
+   tbody tr:nth-child(odd){background: #f2f2f2;}
+   body tr:hover{background:#9eb8f0; color: white;}
+   th:nth-child(1){width:160px; height:20px; position: absolut; z-index:1; backgroud: inherit; padding: 10px;}
+   td:nth-child(1){box-shadow:5px 0 3px -2px #ccc; width:110px; position: fixed; position: absolute; z-index:1; background:inherit; text-align:left; padding:10px; box-sizing:border-box  padding-left:60px; font-weight:bold;}
+   td:nth-child(2){width:200px; }
+   h1{text-align:center;
+    color:#559eab;
+   }
+   
+   @media only screen and(max-width:700px){
+      table{width:1000px;}
+      tbody td{ width:100px; }
+      td:nth-child(2){width:700px;}
+   }
+</style> 
+
+</head>  
+<body>  
+<div>
+<table>
+<h1>Leave Detail</h1><br>
+<thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Start Date </th>
+        <th>End Date </th>
+        <th>Reason of Leave </th>
+        <th>Student no. </th>
+        <th>Parent no. </th>
+        <th>Approve </th>
+        <th>Disapprove </th>
+        
+      </tr>
+    </thead>
+<tbody>
+<tr>
+   <td>Ash  </td>
+   <td>2/3/2022  </td>
+   <td>5/3/2022  </td>
+   <td>Heath issue  </td>
+   <td>9112786541  </td>
+   <td>6548451246</td>
+   <td><input type="button" 
+                               value="button" 
+                               onclick="show()" /></td>
+    <td><input type="button" 
+                               value="button" 
+                               onclick="show()" /></td>                           
+ </tr>
+ <tr>
+   <td>jagu  </td>
+   <td>1/3/2022  </td>
+   <td>7/3/2022  </td>
+   <td>personal  </td>
+   <td>9112786541  </td>
+   <td>6548451246</td>
+    <td><input type="button" 
+                               value="button" 
+                               onclick="show()" /></td>
+                               
+    <td><input type="button" 
+                               value="button" 
+                               onclick="show()" /></td>
+ </tr>
+</tbody>
+</table>
+</div>
+</body>  
+</html>

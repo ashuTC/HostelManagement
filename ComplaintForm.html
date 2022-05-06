@@ -1,0 +1,85 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+.container {  
+
+   padding: 2cm; 
+   margin-left:8cm;
+   margin-right:5cm;
+   width:210mm;
+   height:170mm;
+  background-color: #fff5e6;  
+}  
+
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: #f0f5f5;  
+  outline: none;  
+}  
+ div {  
+       
+        
+            padding: 0.1px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #734d26;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form >
+ 
+  <div class="container">
+  
+  <center> 
+  <h1> Complaint Form</h1> </center>  
+  <hr>  
+  
+<label><b> Room No: </b></label>   
+<input type="text" name="roomno" placeholder="RoomNo." size="15" required /> 
+<label><b> Building Name: </b></label>   
+<input type="text" name="buildingname" placeholder="Building Name" size="15" required />   
+<label> <b>Student Name:</b> </label>    
+<input type="text" name="sname" placeholder="Student name" size="15"required /> 
+
+ <br> 
+
+<input type="text" name="parentphone" placeholder="phone no." size="10"/ required>  
+<b>Complaint Description:</b>  
+<textarea cols="80" rows="5" placeholder="Description" name="complaint" required>  
+</textarea> 
+
+
+     
+    <button type="submit" class="registerbtn"><a href="#" style="color:white">Send</button>    
+</form>  
+</body>  
+</html>  
